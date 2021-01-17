@@ -1,20 +1,16 @@
-ul li .row{
-    float: right;
-  }
-  ul li .row{
-    color: black;
-    margin-left: 15px;
-    cursor: pointer;
-  }
-  ul li .row i:hover{
-    color: maroon;
-  }
-  .active{
-    animation: del 0.3s linear;
-  }
-  @keyframes del{
-    to{
-      opacity: 0;
-      transform: rotate(15deg) skew(25deg) scale(0);
-    }
-  }
+h2{
+  font-size: 2em;
+  text-align: center;
+  color: #382f35;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+ul li input{
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 70%;
+  box-shadow: inset -2px -2px 2px #fff7,
+              inset 2px 2px 2px #0002;
+}
